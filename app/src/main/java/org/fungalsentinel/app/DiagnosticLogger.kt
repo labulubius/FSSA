@@ -35,7 +35,7 @@ object DiagnosticLogger {
             logFile(context).takeIf(File::isFile)?.readText(StandardCharsets.UTF_8).orEmpty()
         }
         output.bufferedWriter(StandardCharsets.UTF_8).use { writer ->
-            writer.appendLine("Fungal Sentinel diagnostic log")
+            writer.appendLine("${context.getString(R.string.app_full_name)} (FSSA) diagnostic log")
             writer.appendLine("Generated: ${timestamp()}")
             writer.appendLine("App: ${BuildConfig.VERSION_NAME} (${BuildConfig.VERSION_CODE})")
             writer.appendLine("Device: ${Build.MANUFACTURER} ${Build.MODEL}")

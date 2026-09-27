@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Fungal Sentinel</string>
+    <string name="app_name">FSSA</string>
+    <string name="app_full_name">Fungal Sentinel Spectral Analyzer</string>
 </resources>

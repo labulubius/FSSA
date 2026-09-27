@@ -1,8 +1,8 @@
-# Fungal Sentinel 中文使用教程
+# Fungal Sentinel Spectral Analyzer (FSSA) 中文使用教程
 
 [English README](README.md)
 
-Fungal Sentinel 是一款离线 Android Camera2 RAW 荧光光谱分析软件。
+Fungal Sentinel Spectral Analyzer（FSSA）是一款离线 Android Camera2 RAW 荧光光谱分析软件。手机桌面显示名称为 **FSSA**。为兼容旧版覆盖安装和实验记录，Android 应用 ID 与历史数据格式保持不变。
 
 它不是普通相机，也不是直接根据照片识别真菌的 AI。软件需要配合固定的狭缝、光栅、样品架和光源，将手机 RAW 传感器变成便携式光谱检测系统，用于校准波长、校正相机光谱响应、测量荧光积分面积，并通过标准曲线估算未知样品浓度。
 

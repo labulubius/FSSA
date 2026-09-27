@@ -472,7 +472,7 @@ class MainActivity : ComponentActivity() {
                             onSaveDiagnosticLog = {
                                 DiagnosticLogger.info(this@MainActivity, "Diagnostic log export requested")
                                 val stamp = SimpleDateFormat("yyyyMMdd-HHmmss", Locale.US).format(Date())
-                                diagnosticLogExporter.launch("Fungal-Sentinel-diagnostic-$stamp.txt")
+                                diagnosticLogExporter.launch("FSSA-diagnostic-$stamp.txt")
                             },
                             onClearDiagnosticLog = {
                                 if (DiagnosticLogger.clear(this@MainActivity)) {
@@ -677,7 +677,7 @@ class MainActivity : ComponentActivity() {
         if (historyBusy) return
         pendingExport = item
         val stamp = SimpleDateFormat("yyyyMMdd_HHmmss", Locale.US).format(Date(item.createdAtEpochMs))
-        historyExporter.launch("FungalSentinel_${stamp}_${item.id.take(8)}.zip")
+        historyExporter.launch("FSSA_${stamp}_${item.id.take(8)}.zip")
     }
 
     private fun deleteHistory(item: ExperimentHistoryEntity) {

@@ -1,8 +1,8 @@
-# Fungal Sentinel
+# Fungal Sentinel Spectral Analyzer (FSSA)
 
 [简体中文使用教程](README.zh-CN.md)
 
-Fungal Sentinel is an offline Android Camera2 RAW capture and fluorescence spectral-analysis app for phones that expose RAW output and manual camera controls.
+Fungal Sentinel Spectral Analyzer (FSSA) is an offline Android Camera2 RAW capture and fluorescence spectral-analysis app for phones that expose RAW output and manual camera controls. Its home-screen label is **FSSA**. Existing installations remain compatible: the Android application ID and stored experiment formats have not changed.
 
 It is not a general camera app or an AI fungal-image classifier. Combined with a fixed slit/grating optical setup, it converts RAW sensor profiles into wavelength-calibrated fluorescence measurements and can estimate concentration from standards.
 
